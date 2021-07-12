@@ -1,0 +1,27 @@
+* {
+  color: #1224c5;
+}
+
+background-color: color .exampleone {
+  background-color: black;
+  color: white;
+}
+
+.exampletwo {
+  background-color: rgb(153, 102, 153);
+  color: rgb(255, 255, 204);
+}
+
+.examplethree {
+  background-color: #777799;
+  color: #ffffff;
+}
+
+.warning {
+  background: red;
+}
+
+.topbanner {
+  background: url("https://mdn.mozillademos.org/files/11983/starsolid.gif") #00d
+    repeat-y fixed;
+}
