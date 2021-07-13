@@ -24,3 +24,14 @@ h2 {
 .contact-form__input--active {
   color: red;
 }
+
+/*Cambio de Tamaño de fuente
+No utilizar medidas fijas, sino relativas como "em & rem"
+15px el contenedor, y el h4 contenido tendria 30px(2x15)*/
+.contact {
+  font-size: 15px;
+}
+.contact__h4 {
+  font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+}
