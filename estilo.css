@@ -1,7 +1,26 @@
-h1 {
+/*Al poner el mouse por encima, cambia color*/
+h1:hover {
   color: blue;
 }
 
+h2 {
+  color: blue;
+}
+
+/*seleccion por ID*/
+[colorsovich="cualquiera"] {
+  color: red;
+}
+
+/*seleccion por clase, jerarquias*/
+.h3-class b {
+  color: red;
+}
+.h3-class b span {
+  color: blue;
+}
+
+/* Metodologia BEM*/
 .contact-form__input--active {
   color: red;
 }
