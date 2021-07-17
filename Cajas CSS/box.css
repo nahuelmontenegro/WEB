@@ -1,0 +1,22 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+/*Implementacion del Display*/
+
+h2 {
+  display: inline;
+  height: 300px;
+  width: 100px;
+}
+
+p {
+  height: 300px;
+  width: 100px;
+}
+
+b {
+  display: inline-block;
+}
