@@ -5,18 +5,30 @@
 }
 
 /*Implementacion del Display*/
+/*inline-block , inline*/
+
+/*Padding*/
+/*Podemos poner paddings individuales o poner solo padding: N px */
+h2 {
+  background-color: blue;
+  display: inline-block;
+  padding: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  /*
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  */
+  /*En orden como parametros (Top, Right, Bottom, Left)*/
+  /*padding: 20px 20px 20px 20px;*/
+}
+
+/*Margin & Border*/
 
 h2 {
-  display: inline;
-  height: 300px;
-  width: 100px;
-}
-
-p {
-  height: 300px;
-  width: 100px;
-}
-
-b {
-  display: inline-block;
+  margin: 20px;
+  border-radius: 2em;
+  border: 5px solid black;
 }
